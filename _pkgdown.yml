@@ -1,0 +1,58 @@
+title: SRTpipeline
+url: https://github.com/feiyoung/SRTpipeline/
+template:
+  params:
+  bootswatch: flatly
+ganalytics: UA-84499524-2
+navbar:
+  type: inverse
+  left:
+    - icon: fa-home
+      href: index.html
+  right:
+    - text: "Install"
+      icon: fas fa-book
+      href: articles/Installation.html
+    - text: "Get Started"
+      icon: fas fa-book
+      href: articles/get_started.html
+    - text: "Single Data Analysis"
+      icon: fas fa-book
+      menu:
+        -  text: Basic tutorial
+           href: articles/single_basic_tutorial.html
+        -  text: Embedding and clustering introduction
+           href: articles/dlpfc_tutorial.html
+        -  text: SRT data clustering
+           href: articles/single_Embryo_SC_tutorial.html
+        -  text: SRT data embedding and clustering
+           href: articles/single_Embryo_DRSC_tutorial.html
+        -  text: SRT data embedding and annotation
+           href: articles/single_MOB_Anno_tutorial.html
+    - text: "Multiple Data Analysis"
+      icon: fas fa-book
+      menu:
+        -  text: Basic tutorial
+           href: articles/multibatch_basic_tutorial.html
+        -  text: Basic tutorial v2
+           href: articles/integration_introduction.html
+        -  text: SRT data clustering and integration
+           href: articles/multibatch_brain12_tutorial.html
+        -  text: SRT data embedding, clustering and integration example 1
+           href: articles/multibatch_HCC4_tutorial.html
+        -  text: SRT data embedding, clustering and integration example 2
+           href: articles/multibatch_liver8_tutorial.html
+        -  text: SRT data embedding, clustering and integration example 3
+           href: articles/multibatch_MOB16_tutorial.html
+    - text: "FAQ"
+      icon: fa-question-circle-o
+      href: articles/faq.html
+    - text: "News"
+      href: news/index.html
+    - icon: fa-file-code-o
+      text: "Functions"
+      href: reference/index.html
+
+extra_packages:
+  - DR.SC
+
