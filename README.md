@@ -89,6 +89,20 @@ single-cell RNA-seq and spatial transcriptomics data, Nucleic Acids
 Research, Volume 50, Issue 12, 8 July 2022, Page e72,
 <a href="https://doi.org/10.1093/nar/gkac219" class="uri">https://doi.org/10.1093/nar/gkac219</a>
 
+Wei Liu, Xu Liao, Ziye Luo, Yi Yang, Mai Chan Lau, Yuling Jiao, Xingjie
+Shi, Weiwei Zhai, Hongkai Ji, Joe Yeong, Jin Liu (2022). Probabilistic
+embedding and clustering with alignment for spatial transcriptomics data
+integration with PRECAST. bioRxiv.
+<a href="https://doi.org/10.1101/2022.06.26.497672" class="uri">https://doi.org/10.1101/2022.06.26.497672</a>
+
+Xiao Zhang, Wei Liu, Fangda Song and Jin Liu, iSC.MEB: an R package for
+multi-sample spatial clustering analysis of spatial transcriptomics
+data, 2022, In submission.
+
+Xingjie Shi, Yi Yang, Xiaohui Ma, Zhenxing Guo, Jin Liu, Probabilistic
+cell/domain-type assignment of spatial transcriptomics data with
+SpatialAnno, 2022
+
 ------------------------------------------------------------------------
 
 Website
