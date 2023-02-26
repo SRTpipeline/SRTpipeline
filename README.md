@@ -7,14 +7,12 @@ SRTpipeline
 
 [![Travis build
 status](https://travis-ci.com/feiyoung/SRTpipeline.svg?branch=master)](https://travis-ci.com/feiyoung/SRTpipeline)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/SRTpipeline)](https://CRAN.R-project.org/package=SRTpipeline)
 <!-- badges: end -->
 
 SRTpipeline is a powerful and easy-to-use R package for processing and
 analyzing spaitally resolved transcriptomics (SRT) data by providing
 step-by-step tutorials. SRTpipeline integrates a series of our developed
-methods and commonly used analyses tools. SRTpipline is able to handle
+methods and commonly used analyses tools. SRTpipeline is able to handle
 single data batch and multiple data batches by considering the
 non-cellular effects such as batch effects.
 
@@ -56,7 +54,6 @@ You can install the development version of SRTpipeline from
 
 [![](https://www.r-pkg.org/badges/version-ago/SRTpipeline)](https://cran.r-project.org/package=SRTpipeline)
 [![](https://cranlogs.r-pkg.org/badges/SRTpipeline?color=orange)](https://cran.r-project.org/package=SRTpipeline)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1972039.svg)](https://doi.org/10.5281/zenodo.1972039)
 [![Coverage
 Status](https://img.shields.io/codecov/c/github/feiyoung/SRTpipeline/master.svg)](https://codecov.io/github/feiyoung/SRTpipeline?branch=master)
 [![](https://badges.feiyoung.org/184_status.svg)](https://github.com/feiyoung/software-review/issues/184)
@@ -90,18 +87,20 @@ Research, Volume 50, Issue 12, 8 July 2022, Page e72,
 <a href="https://doi.org/10.1093/nar/gkac219" class="uri">https://doi.org/10.1093/nar/gkac219</a>
 
 Wei Liu, Xu Liao, Ziye Luo, Yi Yang, Mai Chan Lau, Yuling Jiao, Xingjie
-Shi, Weiwei Zhai, Hongkai Ji, Joe Yeong, Jin Liu (2022). Probabilistic
+Shi, Weiwei Zhai, Hongkai Ji, Joe Yeong, Jin Liu. Probabilistic
 embedding and clustering with alignment for spatial transcriptomics data
-integration with PRECAST. bioRxiv.
-<a href="https://doi.org/10.1101/2022.06.26.497672" class="uri">https://doi.org/10.1101/2022.06.26.497672</a>
+integration with PRECAST. Nat Commun 14, 296 (2023).
+<a href="https://doi.org/10.1038/s41467-023-35947-w" class="uri">https://doi.org/10.1038/s41467-023-35947-w</a>
 
-Xiao Zhang, Wei Liu, Fangda Song and Jin Liu, iSC.MEB: an R package for
+Xiao Zhang, Wei Liu, Fangda Song, Jin Liu, iSC.MEB: an R package for
 multi-sample spatial clustering analysis of spatial transcriptomics
-data, 2022, In submission.
+data, Bioinformatics Advances, 2023;, vbad019,
+<a href="https://doi.org/10.1093/bioadv/vbad019" class="uri">https://doi.org/10.1093/bioadv/vbad019</a>
 
 Xingjie Shi, Yi Yang, Xiaohui Ma, Zhenxing Guo, Jin Liu, Probabilistic
 cell/domain-type assignment of spatial transcriptomics data with
-SpatialAnno, 2022
+SpatialAnno, bioRxiv 2023.02.08.527590; doi:
+<a href="https://doi.org/10.1101/2023.02.08.527590" class="uri">https://doi.org/10.1101/2023.02.08.527590</a>
 
 ------------------------------------------------------------------------
 
@@ -110,6 +109,6 @@ Website
 
 For more information, documentation and examples of use, see also the
 `{SRTpipeline}` website at
-[feiyoung/SRTpipeline](https://github.com/feiyoung/SRTpipeline).
+[SRTpipeline](https://github.com/SRTpipeline/SRTpipeline).
 
 ------------------------------------------------------------------------

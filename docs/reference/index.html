@@ -17,7 +17,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">SRTpipeline</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.1</span>
       </span>
     </div>
 
@@ -51,19 +51,19 @@
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu"><li>
-      <a href="../articles/single_basic_tutorial.html">Basic tutorial</a>
+      <a href="../articles/single_basic_tutorial.html">Basic overview</a>
     </li>
     <li>
-      <a href="../articles/dlpfc_tutorial.html">Embedding and clustering introduction</a>
+      <a href="../articles/dlpfc_tutorial.html">Analyze a human DLPFC section</a>
     </li>
     <li>
-      <a href="../articles/single_Embryo_SC_tutorial.html">SRT data clustering</a>
+      <a href="../articles/single_Embryo_SC_tutorial.html">Analyze a mouse embryo section</a>
     </li>
     <li>
-      <a href="../articles/single_Embryo_DRSC_tutorial.html">SRT data embedding and clustering</a>
+      <a href="../articles/single_Embryo_DRSC_tutorial.html">Analyze a mouse embryo section v2</a>
     </li>
     <li>
-      <a href="../articles/single_MOB_Anno_tutorial.html">SRT data embedding and annotation</a>
+      <a href="../articles/single_MOB_Anno_tutorial.html">Analyze a mouse olfactory bulb section</a>
     </li>
   </ul></li>
 <li class="dropdown">
@@ -75,22 +75,25 @@
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu"><li>
-      <a href="../articles/multibatch_basic_tutorial.html">Basic tutorial</a>
+      <a href="../articles/multibatch_basic_tutorial.html">Basic overview</a>
     </li>
     <li>
-      <a href="../articles/integration_introduction.html">Basic tutorial v2</a>
+      <a href="../articles/integration_introduction.html">Integration introduction</a>
     </li>
     <li>
-      <a href="../articles/multibatch_brain12_tutorial.html">SRT data clustering and integration</a>
+      <a href="../articles/multibatch_brain12_tutorial.html">Integrate three human DLPFC slices</a>
     </li>
     <li>
-      <a href="../articles/multibatch_HCC4_tutorial.html">SRT data embedding, clustering and integration example 1</a>
+      <a href="../articles/multibatch_HCC4_tutorial.html">Integrate four human HCC slices</a>
     </li>
     <li>
-      <a href="../articles/multibatch_liver8_tutorial.html">SRT data embedding, clustering and integration example 2</a>
+      <a href="../articles/multibatch_liver8_tutorial.html">Integrate eight mouse liver slices</a>
     </li>
     <li>
-      <a href="../articles/multibatch_MOB16_tutorial.html">SRT data embedding, clustering and integration example 3</a>
+      <a href="../articles/multibatch_BS2_tutorial.html">Integrate two human breast cancer slices</a>
+    </li>
+    <li>
+      <a href="../articles/integration_large_datasets.html">Tips for integrating large datasets</a>
     </li>
   </ul></li>
 <li>
@@ -127,81 +130,65 @@
           <p class="section-desc"></p>
         </th>
       </tr></tbody><tbody><tr><td>
-          <p><code><a href="spe2seuratList.html">spe2seuratList()</a></code> </p>
-        </td>
-        <td><p>SpatialExperiment object to Seurat list object</p></td>
-      </tr><tr><td>
-          <p><code><a href="sce2seurat.html">sce2seurat()</a></code> </p>
-        </td>
-        <td><p>SingleCellExperiment object to Seurat object</p></td>
-      </tr><tr><td>
-          <p><code><a href="seu2seuList.html">seu2seuList()</a></code> </p>
-        </td>
-        <td><p>Seurat object to seuratList object</p></td>
-      </tr><tr><td>
           <p><code><a href="simu_seuList.html">simu_seuList()</a></code> </p>
-        </td>
-        <td><p>SpatialExperiment object to Seurat object</p></td>
-      </tr><tr><td>
-          <p><code><a href="spe_to_seurat.html">spe2seurat()</a></code> </p>
         </td>
         <td><p>SpatialExperiment object to Seurat object</p></td>
       </tr><tr><td>
           <p><code><a href="AddTSNE.html">AddTSNE()</a></code> </p>
         </td>
-        <td><p>Add info to anchor matrix</p></td>
+        <td><p>Add tSNE embeddings for a SRTProject object</p></td>
       </tr><tr><td>
           <p><code><a href="chooseColors.html">chooseColors()</a></code> </p>
         </td>
-        <td><p>Function to plot something</p></td>
+        <td><p>Choose color schema from a palette</p></td>
       </tr><tr><td>
           <p><code><a href="AddUMAP.html">AddUMAP()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Add UMAP embeddings for a SRTProject object</p></td>
       </tr><tr><td>
           <p><code><a href="transferGeneNames.html">transferGeneNames()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Transfer gene names from one fortmat to the other format</p></td>
       </tr><tr><td>
           <p><code><a href="filter_gene.html">filter_gene()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Filter genes for a Seurat object</p></td>
       </tr><tr><td>
           <p><code><a href="filter_spot.html">filter_spot()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Filter spots for a Seurat object</p></td>
       </tr><tr><td>
           <p><code><a href="get_top_pathway.html">get_top_pathway()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Get top pathways from enrichment analysis results</p></td>
       </tr><tr><td>
           <p><code><a href="barPlot_enrich.html">barPlot_enrich()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Barplot for the enrichment terms</p></td>
       </tr><tr><td>
           <p><code><a href="RCTD_structure.html">RCTD_structure()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Prepare the reference panel data for the RCTD deconvolution analysis</p></td>
       </tr><tr><td>
           <p><code><a href="RCTD_run.html">RCTD_run()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Perform spatial deconvolution analysis using RCTD model</p></td>
       </tr><tr><td>
           <p><code><a href="model_set_SCMEB.html">model_set_SCMEB()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Set parameters for SC-MEB model</p></td>
       </tr><tr><td>
           <p><code><a href="model_set_DRSC.html">model_set_DRSC()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Set parameters for DR-SC model</p></td>
       </tr><tr><td>
           <p><code><a href="model_set_PRECAST.html">model_set_PRECAST()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Set parameters for PRECAST model</p></td>
       </tr><tr><td>
           <p><code><a href="getIntegratedData.html">getIntegratedData()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Get the batch-corrected integrated gene expresssions</p></td>
       </tr><tr><td>
           <p><code><a href="SRTProject-class.html">SRTProject-class</a></code> </p>
         </td>
@@ -209,43 +196,43 @@
       </tr><tr><td>
           <p><code><a href="addProjectSummary.html">addProjectSummary()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Add the summary data for a SRTProject object</p></td>
       </tr><tr><td>
           <p><code><a href="setSRTverbose.html">setSRTverbose()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Determine whether output the information for all functions in SRTpipeline package.</p></td>
       </tr><tr><td>
           <p><code><a href="getSRTVerbose.html">getSRTVerbose()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Get the output status</p></td>
       </tr><tr><td>
           <p><code><a href="setSRToutputPrefix.html">setSRToutputPrefix()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Set the Prefix when output informtion</p></td>
       </tr><tr><td>
           <p><code><a href="getSRToutputPrefix.html">getSRToutputPrefix()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Get the Prefix of output information</p></td>
       </tr><tr><td>
           <p><code><a href="CreateSRTProject.html">CreateSRTProject()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Create a SRTProject object</p></td>
       </tr><tr><td>
           <p><code><a href="normalizeSRT.html">normalizeSRT()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Normalize the expression count data</p></td>
       </tr><tr><td>
           <p><code><a href="selectVariableFeatures.html">selectVariableFeatures()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Select variable genes</p></td>
       </tr><tr><td>
           <p><code><a href="AddAdj.html">AddAdj()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Add adjacency matrix list for a SRTProject object</p></td>
       </tr><tr><td>
           <p><code><a href="CCHeatMap.html">CCHeatMap()</a></code> </p>
         </td>
-        <td><p>Two-dimensional embeddings plot</p></td>
+        <td><p>Plot cluster-by-cluster correlation hetamap</p></td>
       </tr><tr><td>
           <p><code><a href="EmbedPlot.html">EmbedPlot()</a></code> </p>
         </td>
@@ -253,127 +240,136 @@
       </tr><tr><td>
           <p><code><a href="model_set_iSCMEB.html">model_set_iSCMEB()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Set parameters for iSC.MEB model</p></td>
       </tr><tr><td>
           <p><code><a href="FindDEGs.html">FindDEGs()</a></code> </p>
         </td>
-        <td><p>Two-dimensional embeddings plot</p></td>
+        <td><p>Find differential expression genes
+Find differential expression genes by comparing two clusters.</p></td>
       </tr><tr><td>
           <p><code><a href="FindAllDEGs.html">FindAllDEGs()</a></code> </p>
         </td>
-        <td><p>Two-dimensional embeddings plot</p></td>
+        <td><p>Find differential expression genes for all clusters by comparing one cluster to the remaining clusters.</p></td>
       </tr><tr><td>
           <p><code><a href="AddTrajectory.html">AddTrajectory()</a></code> </p>
         </td>
-        <td><p>Two-dimensional embeddings plot</p></td>
+        <td><p>Implement trajectory inference</p></td>
       </tr><tr><td>
           <p><code><a href="AddPCA.html">AddPCA()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Add PCA embeddings for a SRTProject object</p></td>
       </tr><tr><td>
           <p><code><a href="cluster_metric.html">cluster_metric()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Compute adjusted Rand index and normalized mutual information</p></td>
       </tr><tr><td>
           <p><code><a href="Integrate_PRECAST.html">Integrate_PRECAST()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Joint embedding, clustering and alignment for SRT data by fitting a PRECAST model</p></td>
       </tr><tr><td>
           <p><code><a href="Cluster_DRSC.html">Cluster_DRSC()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Joint embedding and clustering for SRT data by fitting an iSC.MEB model a DR-SC model</p></td>
       </tr><tr><td>
           <p><code><a href="Cluster_SCMEB.html">Cluster_SCMEB()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Spatial clustering for SRT data by fitting a SC-MEB model</p></td>
       </tr><tr><td>
           <p><code><a href="Cluster_Louvain.html">Cluster_Louvain()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Louvain clustering for a SRT data</p></td>
       </tr><tr><td>
           <p><code><a href="Annotation_SpatialAnno.html">Annotation_SpatialAnno()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
-      </tr><tr><td>
-          <p><code><a href="Annotation_SMIMC.html">Annotation_SMIMC()</a></code> </p>
-        </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Make annotations for SRT data by fitting a SpatialAnno model</p></td>
       </tr><tr><td>
           <p><code><a href="TrajectEmbedPlot.html">TrajectEmbedPlot()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Visualize the inferred pseudotime on  embeddings.</p></td>
       </tr><tr><td>
           <p><code><a href="write_fig.html">write_fig()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Save a ggplot object to a PNG figure</p></td>
       </tr><tr><td>
           <p><code><a href="Integrate_iSCMEB.html">Integrate_iSCMEB()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Joint clustering and alignment for SRT data by fitting an iSC.MEB model</p></td>
       </tr><tr><td>
           <p><code><a href="vec2list.html">vec2list()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Transfer a vector to a list</p></td>
       </tr><tr><td>
           <p><code><a href="mat2list.html">mat2list()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Transfer a matrix to a list</p></td>
       </tr><tr><td>
           <p><code><a href="matlist2mat.html">matlist2mat()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
-      </tr><tr><td>
-          <p><code><a href="get_sampleID.html">get_sampleID()</a></code> </p>
-        </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Transfer matrix list to a matrix</p></td>
       </tr><tr><td>
           <p><code><a href="getGeneSpotData.html">getGeneSpotData()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Get the expression matrix from a SRTProject object</p></td>
       </tr><tr><td>
           <p><code><a href="EachClusterSpaHeatMap.html">EachClusterSpaHeatMap()</a></code> </p>
         </td>
-        <td><p>Plot spatial RGB heatmap</p></td>
+        <td><p>Plot spatial cluster heatmap for each data batch</p></td>
       </tr><tr><td>
           <p><code><a href="EachRGBSpaHeatMap.html">EachRGBSpaHeatMap()</a></code> </p>
         </td>
-        <td><p>Plot spatial RGB heatmap</p></td>
+        <td><p>Plot spatial RGB heatmaps for a group of SRT data batches</p></td>
       </tr><tr><td>
           <p><code><a href="EachExprSpaHeatMap.html">EachExprSpaHeatMap()</a></code> </p>
         </td>
-        <td><p>Two-dimensional embeddings plot</p></td>
+        <td><p>Plot spatial feature heatmaps for a group of SRT data batches</p></td>
       </tr><tr><td>
           <p><code><a href="EachGCHeatMap.html">EachGCHeatMap()</a></code> </p>
         </td>
-        <td><p>Two-dimensional embeddings plot</p></td>
+        <td><p>Plot gene-by-cell heatmaps for a group of SRT data batches</p></td>
       </tr><tr><td>
           <p><code><a href="model_set_Louvain.html">model_set_Louvain()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Set parameters for Louvain model</p></td>
       </tr><tr><td>
           <p><code><a href="model_set_SpatialAnno.html">model_set_SpatialAnno()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Set parameters for SpatialAnno model</p></td>
       </tr><tr><td>
           <p><code><a href="topVGs.html">topVGs()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Get the top variables genes</p></td>
       </tr><tr><td>
           <p><code><a href="AddClusters2MetaData.html">AddClusters2MetaData()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Add inferred clusters to the <code>cellMetaData</code></p></td>
       </tr><tr><td>
           <p><code><a href="GCHeatMap.html">GCHeatMap()</a></code> </p>
         </td>
-        <td><p>Two-dimensional embeddings plot</p></td>
+        <td><p>Plot gene-by-cell heatmap</p></td>
       </tr><tr><td>
           <p><code><a href="EachEmbedPlot.html">EachEmbedPlot()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Plot the embeddings for each SRT data</p></td>
       </tr><tr><td>
           <p><code><a href="drawFigs.html">drawFigs()</a></code> </p>
         </td>
-        <td><p>Function to add model for SRTProject object</p></td>
+        <td><p>Draw a figure using a group of ggplot objects</p></td>
+      </tr><tr><td>
+          <p><code><a href="spe2seurat.html">spe2seurat()</a></code> </p>
+        </td>
+        <td><p>SpatialExperiment object to Seurat object</p></td>
+      </tr><tr><td>
+          <p><code><a href="spe2seuratList.html">spe2seuratList()</a></code> </p>
+        </td>
+        <td><p>SpatialExperiment object to Seurat list object</p></td>
+      </tr><tr><td>
+          <p><code><a href="seu2seuList.html">seu2seuList()</a></code> </p>
+        </td>
+        <td><p>Seurat object to seuratList object</p></td>
+      </tr><tr><td>
+          <p><code><a href="sce2seurat.html">sce2seurat()</a></code> </p>
+        </td>
+        <td><p>SingleCellExperiment object to Seurat object</p></td>
       </tr></tbody></table></div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -383,7 +379,7 @@
 
 
       <footer><div class="copyright">
-  <p></p><p>Developed by The package maintainer.</p>
+  <p></p><p>Developed by Wei Liu, Yi Yang, Xu Liao, Xiao Zhang, Jin Liu.</p>
 </div>
 
 <div class="pkgdown">
